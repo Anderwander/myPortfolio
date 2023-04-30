@@ -2,7 +2,7 @@
   row-gap: 7rem;
 }
 .home__content {
-  grid-template-columns: 116px repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr) 116px;
   padding-top: 5.5rem;
   column-gap: 2rem;
   align-items: center;
@@ -12,6 +12,7 @@
   display: grid;
   grid-template-columns: max-content;
   row-gap: 1rem;
+  justify-content: end;
 }
 
 .home__social-icon {
@@ -29,21 +30,9 @@
 }
 
 .home__subtitle {
-  position: relative;
   font-size: var(--h3-font-size);
-  padding-left: 5.4rem;
   font-weight: var(--font-normal);
   margin-bottom: var(--mb-1);
-}
-
-.home__subtitle::before {
-  content: "";
-  position: absolute;
-  width: 70px;
-  height: 1px;
-  background-color: var(--text-color);
-  left: 0;
-  top: 1rem;
 }
 
 .home__description {
@@ -58,7 +47,7 @@
   background-size: cover;
   box-shadow: inset 0 0 0 9px rgba(255, 255, 255, 0.3);
   order: 0;
-  justify-self: center;
+  justify-self: start;
   width: 300px;
   height: 300px;
   animation: profile__animate 9s ease-in-out infinite 1s;
@@ -118,11 +107,10 @@
 /* For large devices */
 @media screen and (max-width: 992px) {
   .home__content {
-    grid-template-columns: 100px repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr) 100px;
     column-gap: 1.25rem;
   }
   .home__subtitle {
-    padding-left: 3.75rem;
     margin-bottom: var(--mb-1);
   }
   .home__subtitle::before {
@@ -138,9 +126,14 @@
     width: 250px;
     height: 250px;
     box-shadow: inset 0 0 0 6px rgba(255, 255, 255, 0.3);
+    justify-self: center;
   }
   #home__scroll {
     font-size: x-large;
+    justify-self: center;
+  }
+
+  .home__social {
     justify-self: center;
   }
 }
@@ -148,7 +141,7 @@
 /* For medium devices */
 @media screen and (max-width: 768px) {
   .home__content {
-    grid-template-columns: 0.5fr 3 fr;
+    grid-template-columns: repeat(2, 1fr) 100px;
     padding-top: 5rem;
   }
 
@@ -174,6 +167,9 @@
 
 /* For small devices */
 @media screen and (max-width: 350px) {
+  .home__content {
+    grid-template-columns: repeat(2, 1fr) 40px;
+  }
   .home__img {
     width: 180px;
     height: 180px;
