@@ -14,7 +14,6 @@ function App() {
         <Home></Home>
         <About></About>
         <Skills></Skills>
-        <Qualification></Qualification>
       </main>
     </div>
   );
