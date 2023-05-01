@@ -50,12 +50,12 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web developer</h3>
+                <h3 className="qualification__title">FullStack Developer</h3>
                 <span className="qualification__subtitle">
-                  Lugar Spain - Institute
+                  Bilbao - By The Bridge
                 </span>
                 <div className="qualification__calendar">
-                  <i class="uil uil-calendar-alt"></i> fecha 2021 - Present
+                  <i class="uil uil-calendar-alt"></i> 2023 - Present
                 </div>
               </div>
 
@@ -74,22 +74,22 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Landscaper</h3>
                 <span className="qualification__subtitle">
-                  Lugar Spain - Institute
+                  Derio - Nekazaritza Eskola
                 </span>
                 <div className="qualification__calendar">
-                  <i class="uil uil-calendar-alt"></i> fecha 2021 - Present
+                  <i class="uil uil-calendar-alt"></i> 2020 - 2022
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web disigns</h3>
+                <h3 className="qualification__title">Japanese Language</h3>
                 <span className="qualification__subtitle">
-                  Lugar Spain - Institute
+                  Kyoto - Arc Academy
                 </span>
                 <div className="qualification__calendar">
-                  <i class="uil uil-calendar-alt"></i> fecha 2021 - Present
+                  <i class="uil uil-calendar-alt"></i> 2020 - 2020
                 </div>
               </div>
 
@@ -106,9 +106,9 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Experto en hacer kk</h3>
+                <h3 className="qualification__title">Drone Pilot</h3>
                 <span className="qualification__subtitle">
-                  Lugar Spain - Institute
+                  Bilbao - Drone By Drone
                 </span>
                 <div className="qualification__calendar">
                   <i class="uil uil-calendar-alt"></i> fecha 2017 - 2019
@@ -126,12 +126,10 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Creo que experiencia</h3>
-                <span className="qualification__subtitle">
-                  empresa y lugar{" "}
-                </span>
+                <h3 className="qualification__title">Ultimo curro</h3>
+                <span className="qualification__subtitle">Miau & Co</span>
                 <div className="qualification__calendar">
-                  <i class="uil uil-calendar-alt"></i> fecha 2021 - Present
+                  <i class="uil uil-calendar-alt"></i> 2021 - Present
                 </div>
               </div>
 
@@ -149,11 +147,9 @@ const Qualification = () => {
               </div>
               <div>
                 <h3 className="qualification__title">Otro curro</h3>
-                <span className="qualification__subtitle">
-                  Otra empresa y lugar
-                </span>
+                <span className="qualification__subtitle">Otra empresa</span>
                 <div className="qualification__calendar">
-                  <i class="uil uil-calendar-alt"></i> fecha 2021 - Present
+                  <i class="uil uil-calendar-alt"></i> 2021 - Present
                 </div>
               </div>
             </div>
@@ -161,11 +157,9 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Otro curro</h3>
-                <span className="qualification__subtitle">
-                  otro empresa y sitio
-                </span>
+                <span className="qualification__subtitle">otro empresa</span>
                 <div className="qualification__calendar">
-                  <i class="uil uil-calendar-alt"></i> fecha 2022 - Present
+                  <i class="uil uil-calendar-alt"></i> 2021 - Present
                 </div>
               </div>
 
@@ -182,14 +176,10 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">
-                  Experto en curro de hacer kk
-                </h3>
-                <span className="qualification__subtitle">
-                  Lugar Spain - Institute
-                </span>
+                <h3 className="qualification__title">Otro curro </h3>
+                <span className="qualification__subtitle">Otra empresa</span>
                 <div className="qualification__calendar">
-                  <i class="uil uil-calendar-alt"></i> fecha 2017 - 2019
+                  <i class="uil uil-calendar-alt"></i> 2021 - Present
                 </div>
               </div>
             </div>
