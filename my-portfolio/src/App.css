@@ -113,7 +113,7 @@ img {
   height: auto;
 }
 
-/*=============== REUSABLE CSS CLASSES ===============*/
+/*== REUSABLE CSS CLASSES ===============*/
 .section {
   padding: 6rem 0 2rem;
 }
@@ -134,7 +134,7 @@ img {
   text-align: center;
 }
 
-/*=============== LAYOUT ===============*/
+/*=========== LAYOUT ===============*/
 .container {
   max-width: 968px;
   margin-left: auto;
@@ -146,7 +146,7 @@ img {
   gap: 1.5rem;
 }
 
-/*=============== BUTTONS ===============*/
+/*=============== BUTTONS ==========*/
 .button {
   display: inline-block;
   background-color: var(--title-color);

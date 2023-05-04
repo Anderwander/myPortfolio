@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 
 const Contact = () => {
   return (
@@ -89,6 +90,15 @@ const Contact = () => {
             <button className="button button--flex">Send message</button>
           </form>
         </div>
+      </div>
+
+      <div className="map-wrap">
+        <MapContainer center={[43.263087, -2.935079]} zoom={13}>
+          <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"></TileLayer>
+          <Marker position={[43.263087, -2.935079]}>
+            <Popup>Ander lives here. </Popup>
+          </Marker>
+        </MapContainer>
       </div>
     </section>
   );
